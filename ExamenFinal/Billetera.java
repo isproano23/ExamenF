@@ -1,7 +1,9 @@
 package ExamenFinal;
 
 public class Billetera {
-    private String propietario;
+    
+
+	private String propietario;
 	private String numeroCuenta;
 	private double saldo;
 	private boolean activa;
@@ -70,5 +72,5 @@ public class Billetera {
       return saldo;
   }
 	
-    
 }
+
