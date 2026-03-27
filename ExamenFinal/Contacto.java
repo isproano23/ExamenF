@@ -1,25 +1,35 @@
 package ExamenFinal;
 
 public class Contacto {
-    String tipo;
-    double monto;
-    String descripcion;
-    boolean exitosa;
+    
+    String nombre;
+    String cuentaDestino;
+    String banco;
+    boolean favorito
 
-    public Transaccion(String tipo, double monto, String descripcion) {
-        this.tipo = tipo;
-        this.monto = monto;
-        this.descripcion = descripcion;
-        this.exitosa = true;
+    public Contacto(String nombre, String cuentaDestino, String banco) {
+        this.nombre = nombre;
+        this.cuentaDestino = cuentaDestino;
+        this.banco = banco;
+        this.favorito = false;
     }
 
-    public void mostrarDetalle() {
-        System.out.println("--- Detalle de Transacción ---");
-        System.out.println("Tipo: " + tipo);
-        System.out.println("Monto: $" + monto);
-        System.out.println("Descripción: " + descripcion);
-        System.out.println("Estado: " + (exitosa ? "Exitosa" : "Fallida"));
+    public void mostrarContacto() {
+        System.out.println("=== Contacto ===");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Cuenta: " + cuentaDestino);
+        System.out.println("Banco: " + banco);
+        System.out.println("Favorito: " + (favorito ? "⭐ Favorito" : "Sin marcar"));
     }
+
+    public void marcarFavorito() {
+        favorito = true;
+        System.out.println(nombre + " agregado a favoritos. ⭐");
+    }
+
+
+
+
 
     
 }
