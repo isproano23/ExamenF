@@ -13,7 +13,7 @@ public class Main {
  // ── Integrante 3: Contacto ──────────────────────────────────
  // Crear una instancia de Contacto con datos reales.
  // Llamar a: mostrarContacto(), marcarFavorito() y enviarDinero().
-  Contacto c = new Contacto("Laura Torres", "BW-00456", "BilleteraXYZ");
+ Contacto c = new Contacto("Laura Torres", "BW-00456", "BilleteraXYZ");
         c.mostrarContacto();
         c.marcarFavorito();
         c.enviarDinero(120);
