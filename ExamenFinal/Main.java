@@ -6,7 +6,7 @@ public class Main {
  System.out.println();
  // ── Integrante 1: Billetera ─────────────────────────────────
  // Crear una instancia de Billetera con datos reales.
-   Billetera billetera=new Billetera("Isaac","22081577966",85.00,true);
+  Billetera billetera=new Billetera("Isaac","22081577966",85.00,true);
   billetera.mostrarInfo();
   billetera.depositar(50);
   billetera.retirar(20);
