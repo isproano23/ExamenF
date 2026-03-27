@@ -23,6 +23,12 @@ Transaccion transaccion = new Transaccion("TRANSFERENCIA", 75.00, "Pago de servi
  // ── Integrante 3: Contacto ──────────────────────────────────
  // Crear una instancia de Contacto con datos reales.
  // Llamar a: mostrarContacto(), marcarFavorito() y enviarDinero().
+ Contacto c = new Contacto("Laura Torres", "BW-00456", "BilleteraXYZ");
+        c.mostrarContacto();
+        c.marcarFavorito();
+        c.enviarDinero(120);
+
+        System.out.println();
  // ── Integrante 4 (si aplica): RegistroBilletera ─────────────
  // Crear una instancia de RegistroBilletera.
  // Registrar al menos 2 billeteras con registrarBilletera().
