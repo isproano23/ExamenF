@@ -5,7 +5,7 @@ public class Contacto {
     String nombre;
     String cuentaDestino;
     String banco;
-    boolean favorito
+    boolean favorito;
 
     public Contacto(String nombre, String cuentaDestino, String banco) {
         this.nombre = nombre;
@@ -27,8 +27,12 @@ public class Contacto {
         System.out.println(nombre + " agregado a favoritos. ⭐");
     }
 
-
-
+    public void enviarDinero(double monto) {
+        System.out.println("Transferencia enviada:");
+        System.out.println("Destinatario: " + nombre);
+        System.out.println("Cuenta: " + cuentaDestino);
+        System.out.println("Monto: $" + monto);
+    }
 
 
     
