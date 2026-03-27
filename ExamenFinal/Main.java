@@ -14,6 +14,12 @@ public class Main {
  // ── Integrante 2: Transaccion ───────────────────────────────
  // Crear una instancia de Transaccion con datos reales.
  // Llamar a: mostrarDetalle(), aplicarComision() y marcarFallida().
+Transaccion transaccion = new Transaccion("TRANSFERENCIA", 75.00, "Pago de servicio");
+    transaccion.mostrarDetalle();     
+    transaccion.aplicarComision(2.5); 
+    transaccion.marcarFallida();       
+    System.out.println("===========================");
+
  // ── Integrante 3: Contacto ──────────────────────────────────
  // Crear una instancia de Contacto con datos reales.
  // Llamar a: mostrarContacto(), marcarFavorito() y enviarDinero().
